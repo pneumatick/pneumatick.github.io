@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A clean, professional portfolio website built with HTML, CSS, and JavaScript - perfect for GitHub Pages deployment.
+A portfolio website built with HTML, CSS, and JavaScript
 
 ## Features
 
@@ -12,11 +12,6 @@ A clean, professional portfolio website built with HTML, CSS, and JavaScript - p
 - **Fast Loading** - No external dependencies or frameworks
 
 ## Getting Started
-
-### Prerequisites
-
-- A GitHub account (required for GitHub Pages)
-- Basic text editor knowledge
 
 ### Local Setup
 
@@ -141,9 +136,3 @@ portfolio-site/
 This project is open source and available for personal use. Feel free to fork and customize!
 
 ---
-
-**Tips for a Great Portfolio:**
-- Update with real content (don't leave placeholders!)
-- Include screenshots of your projects
-- Write compelling descriptions focusing on impact
-- Keep it updated with recent work
