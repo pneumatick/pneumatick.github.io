@@ -124,34 +124,9 @@ document.addEventListener('DOMContentLoaded', () => {
     footerYear.innerHTML = footerYear.innerHTML.replace('2026', currentYear);
   }
 
+  // Add GitHub activity calendar
+  GitHubCalendar(".calendar", "pneumatick", { responsive: true });
 });
-
-// Utility function for smooth animations
-function animateOnScroll(selector) {
-  const elements = document.querySelectorAll(selector);
-  
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px'
-  };
-
-  const animationObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
-        animationObserver.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
-
-  elements.forEach(element => {
-    element.style.opacity = '0';
-    element.style.transform = 'translateY(20px)';
-    element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    animationObserver.observe(element);
-  });
-}
 
 // Add to all project cards for additional animation
 document.addEventListener('DOMContentLoaded', () => {
