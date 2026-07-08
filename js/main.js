@@ -124,6 +124,8 @@ document.addEventListener('DOMContentLoaded', () => {
     footerYear.innerHTML = footerYear.innerHTML.replace('2026', currentYear);
   }
 
+  // Add GitHub activity calendar
+  GitHubCalendar(".calendar", "pneumatick", { responsive: true });
 });
 
 // Add to all project cards for additional animation
