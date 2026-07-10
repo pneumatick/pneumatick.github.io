@@ -479,11 +479,6 @@ section h2::after {
   opacity: 1;
 }
 
-.calendar {
-  border: none;
-  animation: fadeInUp 0.8s ease 0.8s backwards;
-}
-
 /* Animations */
 @keyframes fadeInUp {
   from {
